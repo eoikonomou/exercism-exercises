@@ -1,6 +1,6 @@
 export class Triplet {
   constructor(a, b, c) {
-    this.sides = [a, b, c].sort((a, b) => a - b);
+    this.sides = [a, b, c].sort((num1, num2) => num1 - num2);
   }
 
   sum() {
